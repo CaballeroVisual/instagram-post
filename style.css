@@ -1,3 +1,23 @@
 body {
 	background: black;
 }
+
+.postbody {
+	width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+
+
+}
+
+.postheade {
+	width: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+	
+
+}
