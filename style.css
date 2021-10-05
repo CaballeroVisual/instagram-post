@@ -26,7 +26,7 @@ body {
 }
 .text p {
 	margin: -5px 0;
-    padding: -30px;
+    padding: 0px;
     font-size: 15px;
 }
 img {
@@ -34,6 +34,7 @@ img {
 }
 
 .menu {
+	font-size: x-large;
 	margin-left: 300px;
 	margin-right: 20px;
 	margin-bottom: 10px;
