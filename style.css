@@ -1,18 +1,21 @@
 body {
-	background: black;
+	background: white;
 }
-
-.postbody {
+.post {
 	width: 400px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
+}
+
+.postbody {
+	padding: 10px;
 
 
 }
 
-.postheade {
+.posthead {
 	width: 400px;
 	display: flex;
 	flex-direction: row;
@@ -20,4 +23,30 @@ body {
 	padding: 10px;
 	
 
+}
+img {
+	max-width: 400px;
+}
+
+menu {
+	margin-left: 300px;
+	margin-bottom: 10px;
+}
+text p {
+	margin: -5px 0;
+    padding: -30px;
+    font-size: 15px;
+}
+.postbody p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+.text {
+	float: left
+}
+button {
+	margin: 10px;
+}
+.bookmark {
+	float: right;
 }
