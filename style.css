@@ -1,7 +1,8 @@
 body {
-	background: white;
+	background: black;
 }
 .post {
+	font-family: Arial, Helvetica, sans-serif;
 	width: 400px;
 	display: block;
 	margin-left: auto;
@@ -10,43 +11,46 @@ body {
 }
 
 .postbody {
+	font-size: small;
 	padding: 10px;
-
-
 }
 
 .posthead {
-	width: 400px;
-	display: flex;
+    width: 400px;
+    display: flex;
+    align-items: baseline;
+	flex-flow: column wrap;
 	flex-direction: row;
-	justify-content: space-between;
-	padding: 10px;
-	
-
+    justify-content: space-between;
+    padding: 10px;
+}
+.text p {
+	margin: -5px 0;
+    padding: -30px;
+    font-size: 15px;
 }
 img {
 	max-width: 400px;
 }
 
-menu {
+.menu {
 	margin-left: 300px;
+	margin-right: 20px;
 	margin-bottom: 10px;
 }
-text p {
-	margin: -5px 0;
-    padding: -30px;
-    font-size: 15px;
-}
+
 .postbody p {
+	
 	text-align: justify;
 	text-justify: inter-word;
 }
-.text {
+.texto {
 	float: left
 }
-button {
+.button {
+	font-size: xx-large;
 	margin: 10px;
 }
-.bookmark {
+#bookmark {
 	float: right;
 }
